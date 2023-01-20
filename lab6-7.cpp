@@ -34,8 +34,8 @@ public:
         ofstream stats_file;
         stats_file.open("stats.json");
         stats_file << "{\n";
-        stats_file << "   Number of images:" << nrImag << "\n";
-        stats_file << "   Number of tables:" << nrImag << "\n";
+        stats_file << "   Number of images:" << nrImag << ",\n";
+        stats_file << "   Number of tables:" << nrImag << ",\n";
         stats_file << "   Number of paragraphs:" << nrImag << "\n";
         stats_file << "}";
         stats_file.close();
